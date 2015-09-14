@@ -4,6 +4,10 @@ This code parses SciDB source and documentation pages to build
 a database of AFL function information. This database is in turn
 used to build the SciDBpy AFL binding
 
+## Note
+
+There are issues when running this package with SciDB 15.7 and onwards. The problems and work-arounds are noted in https://github.com/Paradigm4/scidbpy-aflgen/issues/1
+
 ## Usage
 
 * Obtain the SciDB source code
